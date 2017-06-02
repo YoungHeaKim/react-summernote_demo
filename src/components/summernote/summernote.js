@@ -15,9 +15,8 @@ class RichTextEditor extends Component {
   render() {
     return (
       <ReactSummernote
-        value="Default value"
         options={{
-          lang: 'ru-RU',
+          lang: 'en-EN',
           height: 200,
           length:230,
           dialogsInBody: true,
