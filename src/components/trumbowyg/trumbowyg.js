@@ -11,7 +11,7 @@ import '../../../node_modules/trumbowyg/dist/plugins/table/trumbowyg.table';
     render() {
         return (
             <div>
-                    <Trumbowyg id='react-trumbowyg'
+                    <Trumbowyg id = "react-trumbowyg"
                         buttons={
                             [
                                 ['viewHTML'],
@@ -26,7 +26,7 @@ import '../../../node_modules/trumbowyg/dist/plugins/table/trumbowyg.table';
                             ]
                         }
                         data={this.props.someData}
-                        placeholder='Type your text!'
+                        placeholder="Type your text!"
                         onChange={this.props.someCallback}
                         ref="trumbowyg"
                     />
